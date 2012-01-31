@@ -1,7 +1,7 @@
 Determining Delegate Object Method Call in Objective-C with NSProxy
 ===================================================================
 
-By [Joe d'Andrea][5] and [Adrian Kosmaczewski][6].
+By [Joe D'Andrea][5] and [Adrian Kosmaczewski][6].
 
 Many developers new to the iOS platform have trouble understanding the
 delegate architecture, in the sense that many other OO toolkits use
