@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A2B5B4D14D7F841009C1B6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A2B5B4C14D7F841009C1B6E /* UIKit.framework */; };
+		3A2B5B4F14D7F841009C1B6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A2B5B4E14D7F841009C1B6E /* Foundation.framework */; };
+		3A2B5B5114D7F841009C1B6E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A2B5B5014D7F841009C1B6E /* CoreGraphics.framework */; };
+		3A2B5B5914D7F841009C1B6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2B5B5814D7F841009C1B6E /* main.m */; };
+		3A2B5B7614D7F86E009C1B6E /* PTVControllerProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2B5B7114D7F86D009C1B6E /* PTVControllerProxy.m */; };
+		3A2B5B7714D7F86E009C1B6E /* PTVDelegateOrderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2B5B7314D7F86E009C1B6E /* PTVDelegateOrderAppDelegate.m */; };
+		3A2B5B7814D7F86E009C1B6E /* PTVRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2B5B7514D7F86E009C1B6E /* PTVRootViewController.m */; };
+		3A2B5B7D14D7F8B9009C1B6E /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A2B5B7A14D7F8B9009C1B6E /* Entitlements.plist */; };
+		3A2B5B7E14D7F8B9009C1B6E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A2B5B7B14D7F8B9009C1B6E /* MainWindow.xib */; };
+		3A2B5B7F14D7F8B9009C1B6E /* PTVRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A2B5B7C14D7F8B9009C1B6E /* PTVRootViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A2B5B4814D7F841009C1B6E /* DelegateOrder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DelegateOrder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A2B5B4C14D7F841009C1B6E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3A2B5B4E14D7F841009C1B6E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3A2B5B5014D7F841009C1B6E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3A2B5B5414D7F841009C1B6E /* DelegateOrder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DelegateOrder-Info.plist"; sourceTree = "<group>"; };
+		3A2B5B5814D7F841009C1B6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A2B5B5A14D7F841009C1B6E /* DelegateOrder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DelegateOrder-Prefix.pch"; sourceTree = "<group>"; };
+		3A2B5B7014D7F86D009C1B6E /* PTVControllerProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTVControllerProxy.h; sourceTree = "<group>"; };
+		3A2B5B7114D7F86D009C1B6E /* PTVControllerProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTVControllerProxy.m; sourceTree = "<group>"; };
+		3A2B5B7214D7F86D009C1B6E /* PTVDelegateOrderAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTVDelegateOrderAppDelegate.h; sourceTree = "<group>"; };
+		3A2B5B7314D7F86E009C1B6E /* PTVDelegateOrderAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTVDelegateOrderAppDelegate.m; sourceTree = "<group>"; };
+		3A2B5B7414D7F86E009C1B6E /* PTVRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTVRootViewController.h; sourceTree = "<group>"; };
+		3A2B5B7514D7F86E009C1B6E /* PTVRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTVRootViewController.m; sourceTree = "<group>"; };
+		3A2B5B7A14D7F8B9009C1B6E /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		3A2B5B7B14D7F8B9009C1B6E /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		3A2B5B7C14D7F8B9009C1B6E /* PTVRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PTVRootViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A2B5B4514D7F841009C1B6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A2B5B4D14D7F841009C1B6E /* UIKit.framework in Frameworks */,
+				3A2B5B4F14D7F841009C1B6E /* Foundation.framework in Frameworks */,
+				3A2B5B5114D7F841009C1B6E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A2B5B3D14D7F841009C1B6E = {
+			isa = PBXGroup;
+			children = (
+				3A2B5B5214D7F841009C1B6E /* DelegateOrder */,
+				3A2B5B4B14D7F841009C1B6E /* Frameworks */,
+				3A2B5B4914D7F841009C1B6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A2B5B4914D7F841009C1B6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A2B5B4814D7F841009C1B6E /* DelegateOrder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A2B5B4B14D7F841009C1B6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A2B5B4C14D7F841009C1B6E /* UIKit.framework */,
+				3A2B5B4E14D7F841009C1B6E /* Foundation.framework */,
+				3A2B5B5014D7F841009C1B6E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A2B5B5214D7F841009C1B6E /* DelegateOrder */ = {
+			isa = PBXGroup;
+			children = (
+				3A2B5B6F14D7F86D009C1B6E /* Classes */,
+				3A2B5B7914D7F8B9009C1B6E /* Resources */,
+				3A2B5B5314D7F841009C1B6E /* Supporting Files */,
+			);
+			path = DelegateOrder;
+			sourceTree = "<group>";
+		};
+		3A2B5B5314D7F841009C1B6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A2B5B5414D7F841009C1B6E /* DelegateOrder-Info.plist */,
+				3A2B5B5814D7F841009C1B6E /* main.m */,
+				3A2B5B5A14D7F841009C1B6E /* DelegateOrder-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A2B5B6F14D7F86D009C1B6E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3A2B5B7014D7F86D009C1B6E /* PTVControllerProxy.h */,
+				3A2B5B7114D7F86D009C1B6E /* PTVControllerProxy.m */,
+				3A2B5B7214D7F86D009C1B6E /* PTVDelegateOrderAppDelegate.h */,
+				3A2B5B7314D7F86E009C1B6E /* PTVDelegateOrderAppDelegate.m */,
+				3A2B5B7414D7F86E009C1B6E /* PTVRootViewController.h */,
+				3A2B5B7514D7F86E009C1B6E /* PTVRootViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3A2B5B7914D7F8B9009C1B6E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3A2B5B7A14D7F8B9009C1B6E /* Entitlements.plist */,
+				3A2B5B7B14D7F8B9009C1B6E /* MainWindow.xib */,
+				3A2B5B7C14D7F8B9009C1B6E /* PTVRootViewController.xib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A2B5B4714D7F841009C1B6E /* DelegateOrder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A2B5B6C14D7F841009C1B6E /* Build configuration list for PBXNativeTarget "DelegateOrder" */;
+			buildPhases = (
+				3A2B5B4414D7F841009C1B6E /* Sources */,
+				3A2B5B4514D7F841009C1B6E /* Frameworks */,
+				3A2B5B4614D7F841009C1B6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DelegateOrder;
+			productName = DelegateOrder;
+			productReference = 3A2B5B4814D7F841009C1B6E /* DelegateOrder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A2B5B3F14D7F841009C1B6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "akosma software";
+			};
+			buildConfigurationList = 3A2B5B4214D7F841009C1B6E /* Build configuration list for PBXProject "DelegateOrder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3A2B5B3D14D7F841009C1B6E;
+			productRefGroup = 3A2B5B4914D7F841009C1B6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A2B5B4714D7F841009C1B6E /* DelegateOrder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A2B5B4614D7F841009C1B6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A2B5B7D14D7F8B9009C1B6E /* Entitlements.plist in Resources */,
+				3A2B5B7E14D7F8B9009C1B6E /* MainWindow.xib in Resources */,
+				3A2B5B7F14D7F8B9009C1B6E /* PTVRootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A2B5B4414D7F841009C1B6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A2B5B5914D7F841009C1B6E /* main.m in Sources */,
+				3A2B5B7614D7F86E009C1B6E /* PTVControllerProxy.m in Sources */,
+				3A2B5B7714D7F86E009C1B6E /* PTVDelegateOrderAppDelegate.m in Sources */,
+				3A2B5B7814D7F86E009C1B6E /* PTVRootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3A2B5B6A14D7F841009C1B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3A2B5B6B14D7F841009C1B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A2B5B6D14D7F841009C1B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DelegateOrder/DelegateOrder-Prefix.pch";
+				INFOPLIST_FILE = "DelegateOrder/DelegateOrder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3A2B5B6E14D7F841009C1B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DelegateOrder/DelegateOrder-Prefix.pch";
+				INFOPLIST_FILE = "DelegateOrder/DelegateOrder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A2B5B4214D7F841009C1B6E /* Build configuration list for PBXProject "DelegateOrder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A2B5B6A14D7F841009C1B6E /* Debug */,
+				3A2B5B6B14D7F841009C1B6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A2B5B6C14D7F841009C1B6E /* Build configuration list for PBXNativeTarget "DelegateOrder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A2B5B6D14D7F841009C1B6E /* Debug */,
+				3A2B5B6E14D7F841009C1B6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A2B5B3F14D7F841009C1B6E /* Project object */;
+}
